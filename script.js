@@ -23,30 +23,37 @@ if (SpeechRecognition) {
     const keywords = {
       "February 27": () => {
         document.querySelector("#mainText2").className = "variable1";
-        document.querySelector("#image").src = "./img/cell1.png";
+        // document.querySelector("#image").src = "./img/cell1.png";
+        document.querySelector("#vid").src = "./img/February27.mp4";
         document.querySelector("#image").style.bottom = "0px";
         document.querySelector("#image").style.left = "500px";
         document.querySelector("#image").style.rotate = "20deg";
-        document.body.style.backgroundColor = "rgb(0, 0, 255)";
       },
       "4:30": () => {
         document.querySelector("#mainText2").className = "variable2";
-        document.querySelector("#image").src = "./img/cell2.png";
+        document.querySelector("#vid").src = "./img/Time.mp4";
         document.querySelector("#image").style.top = "30px";
         document.querySelector("#image").style.left = "200px";
         document.querySelector("#image").style.rotate = "0deg";
-        document.body.style.backgroundColor = "#86f5ff";
-      },
-      "cells": () => {
-        document.querySelector("#mainText2").className = "variable3";
-        document.querySelector("#image").src = "";
-        document.body.style.backgroundImage = "url('./img/cell2.png')"; 
       },
 
-      "ecosystem": () => {
+      "cells": () => {
+        document.querySelector("#mainText2").className = "variable3";
+        document.querySelector("#image").src = ""; 
+        document.querySelector("#vid").src = "./img/cell.mp4";
+      },
+
+       "paramecium": () => {
         document.querySelector("#mainText2").className = "variable4";
         document.querySelector("#image").src = "";
-        document.body.style.backgroundImage = "url('./img/cell1.png')"; 
+        document.querySelector("#vid").src = "./img/paramecium.mp4";
+      },
+
+
+      "dinner": () => {
+        document.querySelector("#mainText2").className = "variable5";
+        document.querySelector("#image").src = "";
+        document.querySelector("#vid").src = "./img/dinner.mp4";
       }
     };
 
@@ -78,3 +85,4 @@ if (SpeechRecognition) {
 
   //==============================================================
 }
+

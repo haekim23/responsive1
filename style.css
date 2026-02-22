@@ -55,23 +55,29 @@ body {
 
 .variable1 {
   font-variation-settings: "wght" 0;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 .variable2 {
-  font-variation-settings: "wght" 225;
-  color: blue;
+  font-variation-settings: "wght" 100;
+  color: rgb(255, 255, 255);
 }
 
 .variable3 {
-  font-variation-settings: "wght" 100;
-  color: rgb(255, 0, 179);
+  font-variation-settings: "wght" 300;
+  color: rgb(255, 255, 255);
 }
 
 .variable4 {
-  font-variation-settings: "wght" 100;
-  color: rgb(26, 255, 0);
+  font-variation-settings: "wght" 50;
+  color: rgb(255, 255, 255);
 }
+
+.variable5 {
+  font-variation-settings: "wght" 0;
+  color: rgb(255, 255, 255);
+}
+
 
 
 /* Image ================================================ */
@@ -79,5 +85,16 @@ body {
   position: fixed;
   width: 400px;
 }
+
+#vid {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
 
 
